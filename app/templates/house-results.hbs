@@ -1,1 +1,8 @@
-{{outlet}}
+committies in the house:
+<ul>
+  {{#each model as |result|}}
+    <li> {{result.name}}
+    <br>Contact: {{result.phone}}</li>
+  {{/each}}
+</ul>
+{{#link-to "index"}}index{{/link-to}}

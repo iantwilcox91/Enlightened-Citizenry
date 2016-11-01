@@ -10,7 +10,7 @@ Router.map(function() {
   this.route('legislators');
   this.route('legislators-results', {path: '/legislators-results/:zip'});
   this.route('house');
-  this.route('house-results', {path: '/house-results/:zip'});
+  this.route('house-results');
   this.route('senate');
   this.route('senate-results', {path: '/senate-results/:zip'});
   this.route('bills');
