@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('legislators');
   this.route('legislators-results');
   this.route('house');
+  this.route('house-results');
   this.route('senate');
   this.route('bills');
 });
