@@ -8,11 +8,10 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('legislators');
+  this.route('legislators-results');
   this.route('house');
   this.route('senate');
   this.route('bills');
-  this.route('legislators-results');
-  this.route('house-results');
 });
 
 export default Router;
